@@ -1,9 +1,12 @@
 import * as React from 'react';
-export default function photopp() {
+import Button from '@mui/material/Button';
+import  Stack  from '@mui/material/Stack';
+
+export default function Grid() {
     return (
-        <div>
-        <img
-          src="/premalu.jpeg"
+      <div>
+         <img
+          src="premalu.jpeg"
           alt="premalu"
           style={{
             width: '20rem',
@@ -14,7 +17,5 @@ export default function photopp() {
             right: '-5rem',
           }}
         />
-      </div>
-      )}
-    
-        
+        </div>
+    )}
